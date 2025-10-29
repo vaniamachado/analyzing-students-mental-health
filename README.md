@@ -7,3 +7,12 @@
 
 
 ### 📍 Overview
+
+## Project Objective
+Explore mental health patterns among students at a Japanese university, focusing on:
+1. Differences between international and domestic students.
+2. Impact of social connectedness and acculturative stress on depression.
+3. Effect of length of stay in Japan on mental health outcomes.
+
+**Technologies:** SQL (PostgreSQL/SQLite), Python (pandas, matplotlib, seaborn)
+
