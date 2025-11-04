@@ -14,5 +14,8 @@ Explore mental health patterns among students at a Japanese university, focusing
 2. Impact of social connectedness and acculturative stress on depression.
 3. Effect of length of stay in Japan on mental health outcomes.
 
-**Technologies:** SQL (PostgreSQL/SQLite), Python (pandas, matplotlib, seaborn)
+**Technologies:** 
+- SQL (PostgreSQL/SQLite) - queries to demonstrate database querying and aggregation skills
+- Python (pandas, matplotlib, seaborn) - visualizations to illustrate key patterns and tell the story
 
+You can check my solution
