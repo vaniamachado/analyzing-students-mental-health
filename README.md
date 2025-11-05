@@ -9,48 +9,49 @@
 ### 📍 Overview
 
 ## Project Objective
-Explore mental health patterns among students at a Japanese university, focusing on:
-1. Differences between international and domestic students.
-2. Impact of social connectedness and acculturative stress on depression.
-3. Effect of length of stay in Japan on mental health outcomes.
+Explore mental health patterns among students at a Japanese university, focusing on:  
+1. **Differences** between international and domestic students.  
+2. **Impact** of social connectedness and acculturative stress on depression.  
+3. **Effect** of length of stay in Japan on mental health outcomes.
 
-**Dataset Overview**
+## Dataset Overview
 
-
- - 268 student records; 75% international, 92% undergraduates.
-
- - Highlights the importance of focusing on international students’ well-being.
+- 268 student records; 75% international.  
+- Gender distribution: 170 female (63.4%), 98 male (36.6%).  
+- Academic level: 92% undergraduates; freshmen represent the largest group (42.9%).  
+- Highlights the importance of focusing on international students’ well-being.
 
 ## Key Findings
 
-1. **Depression Prevalence**
+1. **Depression Prevalence**  
+   - International students: 37.8% depressed (~8% higher than domestic students).  
+   - Domestic students: 29.9% depressed.  
+   - Female international students show the highest risk (39.8% vs 34.2% for males).
 
-International students: 37.8% depressed (~8% higher)
+2. **Psychological Scores and Correlations**  
+   - Average PHQ scores indicate **similar depression levels** between international and domestic students.  
+   - **Social connectedness (SCS)** shows a moderate negative correlation with depression (r = -0.54), indicating that higher social integration is linked to lower depressive symptoms.  
+   - **Acculturative stress (AS)** shows a moderate positive correlation with depression (r = 0.41), suggesting that greater adaptation challenges are associated with higher depressive symptoms.  
+   - AS is moderately high among international students, consistent with adaptation challenges.  
+   - These results highlight the importance of fostering social support networks and helping students manage adaptation stress.
 
-Domestic students: 29.9% depressed 
+3. **Length of Stay**  
+   - Depression peaks in 3rd-year international students (average PHQ = 9.09), suggesting mid-term adaptation challenges and academic pressures.
 
-Female international students show the highest risk (39.8% vs 34.2% for males).
+4. **Predictors of Depression**  
+   - Among international students, the only socio-demographic factor significantly associated with depression is **length of stay**.  
+   - Peer support, social integration, and managing acculturative stress are key factors for mental well-being.
 
-2. **Psychological Scores**
+## Implications
+- Universities should implement **peer-support programs** and **early intervention initiatives**, especially for first-year international students, to enhance adaptation and mental health.
 
-   - Average PHQ scores indicate similar depression levels between international and domestic students.
-   - Social connectedness (SCS) is variable, highlighting potential differences in support networks.
-   - Acculturative stress (AS) is moderately high in international students, consistent with adaptation challenges.
+## Portfolio Highlights
+- ✅ SQL queries demonstrating database skills.  
+- ✅ Python visualizations and regression modeling to communicate insights.  
+- ✅ Markdown for context, narrative, and actionable recommendations.
 
-3. **Length of Stay**
+## 🧰 Technologies
+- **SQL (PostgreSQL/SQLite)** – database querying and aggregation.  
+- **Python (pandas, matplotlib, seaborn)** – data visualization and regression modeling.
 
-No clear linear trend; depression peaks among 3rd-year international students (Todep = 9.09), possibly due to mid-term adaptation and academic pressures.
-
-4. **Social Support & Correlations**
-    - Negative correlations with friends (-0.12) and parents (-0.21) indicate that higher support from these sources is associated with lower depression scores. These findings highlight the protective role of personal social networks for mental health.
-  
-5. **Predictors of Depression**
-The regression analysis shows that higher acculturative stress increases depression scores  among international students. Support from friends reduces depression risk, while higher parental support may reflect students already experiencing difficulties. Universities should focus on peer-support programs and early interventions, especially for first-year international students, to enhance adaptation and mental well-being.
-
-🧰 **Technologies:** 
-- SQL (PostgreSQL/SQLite) - queries to demonstrate database querying and aggregation skills
-- Python (pandas, matplotlib, seaborn) - visualizations to illustrate key patterns and tell the story and regression modeling
-
-You can check my solution
-
-
+You can check my solution [here](/notebook_students_mental_health.ipynb)
